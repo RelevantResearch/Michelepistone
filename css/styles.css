@@ -24,6 +24,7 @@ body {
     background-color: #006370;
     color: white; 
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .color-2 {
@@ -59,7 +60,7 @@ body {
     background-color: transparent; 
     color: white;
     text-align: center;
-    flex-wrap: wrap; 
+    
 }
 
 .stat-column {
@@ -69,13 +70,19 @@ body {
 }
 
 .stat-column h1 {
-    font-size: 4rem;
-    margin: 0;
+    font-size: 5.625rem !important;
+    font-weight: normal;
+    margin: 4rem 0 1.5rem;
 }
 
 .stat-column p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 10px;
+    line-height: 1.5em;
+    vertical-align: baseline;
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 
 /* Responsive stacking on smaller screens */
@@ -109,7 +116,10 @@ body {
 }
 
 .message-row p {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
+    font-family: "Gascogne-TS-Medium", serif;
+    line-height: 1.5em;
+    font-weight: normal;
     margin: 10px 0;
 }
 
@@ -133,7 +143,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 50px 20px;
     min-height: 100vh; /
 }
@@ -146,25 +155,31 @@ body {
 
 .new-model-section h1 {
     color: #58BBB8; 
-    font-size: 3rem;
+    font-size: 5.625rem;
     margin-bottom: 20px;
+    font-weight: normal;
 }
 
 .new-model-section h2 {
-    font-size: 2rem;
+    font-size: 2.8125rem;
     margin-bottom: 20px;
+    font-family: "Gascogne-TS-Medium", serif;
+    font-weight: normal;
+    line-height: 1.277em;
 }
 
+
 .new-model-section p {
-    font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 20px;
+    margin: 0 0 1.5rem;
+    font-size: 1.5rem;
 }
 
 /* row 3 start */
 /* Container for Row 3 */
 .row.color-3 {
-    background-color: #4dc3c4; 
+    background-color: #58BBB8; 
     padding: 50px 20px;
     display: flex;
     flex-direction: column;
@@ -173,6 +188,8 @@ body {
     text-align: center;
     color: #006370; /* Text color */
     font-family: 'Gascogne-TS-Medium', serif;
+    width: 100%;
+    text-align: justify;
 
 }
 
@@ -181,6 +198,7 @@ body {
     /* max-width: 800px; */
     margin-bottom: 20px;
     text-align: center; 
+    margin-bottom: 3.25em !important;
 }
 
 blockquote {
@@ -194,15 +212,16 @@ blockquote {
 /* Author and details section aligned to the left */
 .author-wrapper, .details-wrapper {
     max-width: 800px;
-    margin: 20px auto 0 auto; 
+    margin: 0px auto 0 auto; 
     text-align: left; 
 }
 
 /* Author text styling */
 .author {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: left;
+    font-family: "Apercu-Medium", sans-serif;
+    font-size: 1.375rem;
+    line-height: 1em;
+    letter-spacing: 1px;
 }
 
 /* Title and organization section */
@@ -224,13 +243,18 @@ blockquote {
     text-align: center;
     color: white; /* Text color */
     font-family: 'Gascogne-TS-Medium', serif;
+    width: 100%;
 
 }
 img{
     width: 100%;
 }
 
-
+.details-wrapper p {
+    line-height: 1.6;
+    margin: 0 0 0rem;
+    font-size: 1.5rem;
+}
 
 
 /* Responsive Styling for Smaller Screens */
@@ -240,7 +264,11 @@ img{
     }
 
     .new-model-section h2 {
-        font-size: 1.5rem;
+        font-size: 2.25rem;
+        line-height: 1.277em;
+        margin-bottom: 40px;
+        font-weight: normal;
+        font-family: "Gascogne-TS-Medium", serif;
     }
 
     .new-model-section p {
@@ -258,6 +286,7 @@ img{
     /* padding: 50px 20px; */
     text-align: center;
     display: block; 
+    width: 100%;
 }
 
 /* h1 styling */
@@ -281,7 +310,22 @@ img{
     margin-bottom: 30px;
     text-align: left; 
 }
-
+.col-layout-second {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.col-layout-first {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
 /* Ensure that all columns are not on the same line as the h1 */
 .row.color-6 .col-layout-third {
     display: inline-block;
@@ -289,33 +333,68 @@ img{
     text-align: left;
 }
 
+.row.color-6 .col-layout-second {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.row.color-6 .col-layout-first {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
 /* Heading styling for h2 */
 .h3-style {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-bottom: 10px;
-    color: #00303f;
+    color: #006370;
+    font-weight: normal;
+    font-family: "Gascogne-TS-Medium", serif;
+}
+
+.col-layout-third p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #006370;
+}
+
+.col-layout-second p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #006370;
 }
 
 /* Paragraph styling */
-.col-layout-third p {
-    font-size: 1rem;
+.col-layout-first p {
+    font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: 15px;
+    color: #006370;
 }
+
+
+
 
 /* Button styling */
 .button {
     display: inline-block;
-    padding: 10px 30px;
-    color: #007a7a;
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
     border: 2px solid #4dc3c4;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    color: #006370;
+    line-height: 50px;
+    padding: 4px 1.5rem 0;
+    border: 3px solid #58BBB8;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1.2rem 0 0;
+    font-family: "Apercu-Medium", sans-serif;
 }
+
 
 .button:hover {
     background-color: #4dc3c4;
@@ -326,6 +405,16 @@ img{
 /* Responsive Design for smaller screens */
 @media (max-width: 992px) {
     .col-layout-third {
+        width: 100%; 
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .col-layout-second {
+        width: 100%; 
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .col-layout-first {
         width: 100%; 
         margin-bottom: 30px;
         text-align: center;
@@ -346,6 +435,7 @@ img{
     background-color: #006370; 
     text-align: center;
     display: block; 
+    width: 100%;
 }
 
 .footer-section {
@@ -361,7 +451,7 @@ img{
     flex-wrap: wrap;  
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 80px 0;
 }
 
 
@@ -374,12 +464,22 @@ img{
     text-align: left;
 }
 
+.footer-left p{
+    margin: 0 0 1.5rem;
+    font-size: 1.6rem;
+    font-family: 'Gascogne-TS-Medium', serif;
+}
+
 .footer-left-subs{
-    text-align: center;
+    text-align: left;
+}
+.footer-left-subs p {
+    text-align: left;
+    margin-top: 70px;
+    font-size: 1em;
 }
 
 .footer-title {
-    font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 15px;
 }
@@ -387,19 +487,29 @@ img{
 .footer-line {
     border: 0;
     border-top: 2px solid #4dc3c4;
-    width: 100%;
     margin: 20px 0;
+    margin-top: -18px;
+    padding-left: 3em;
 }
 
 .footer-button {
+    clear: none;
+    width: auto;
+    margin: 0.75rem 0 0;
+    border-color: #58BBB8;
+    color: #fff;
+    line-height: 50px;
+    padding: 4px 1.5rem 0;
+    border: 3px solid #58BBB8;
+    background-color: transparent;
+    color: #fff;
     display: inline-block;
-    padding: 10px 30px;
-    border: 2px solid #4dc3c4;
-    color: #4dc3c4;
     text-decoration: none;
-    font-weight: bold;
+    cursor: pointer;
+    font-weight: normal;
     text-transform: uppercase;
-    transition: background-color 0.3s, color 0.3s;
+    font-family: "Apercu-Medium", sans-serif;
+    font-size: 1.375rem;
 }
 
 .footer-button:hover {
@@ -418,23 +528,58 @@ img{
     justify-content: space-between;
     flex: 1;
     min-width: 250px;
+    margin-top: 4.5em;
 }
 
 .footer-links {
     display: flex;
     gap: 40px; 
+    padding-left: 3em;
 }
 
 .footer-column a {
     color: white;
     text-decoration: none;
     display: block;
-    margin-bottom: 10px;
-    font-size: 1rem;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    line-height: 1.36em;
+    letter-spacing: 1px;
+    /* line-height: 1.5em; */
+    margin-bottom: .75rem;
+    list-style: none;
+    padding-left: 0;
+    text-transform: uppercase;
+    font-family: "Apercu-Medium", sans-serif;
+    font-size: 1.375rem;
 }
 
 .footer-column a:hover {
     color: #4dc3c4;
+}
+
+p.copyright{
+    text-align: left;
+    margin-top: 70px;
+    font-size: 1em;
+    color: white;
+    font: 100% "Apercu-Light", sans-serif;
+}
+
+.footer-down-subs a {
+    color: #4dc3c4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-down-subs a:hover {
+    color: orange; /* Changes color when hovered */
+    text-decoration: underline; /* Optional underline effect on hover */
 }
 
 /* Responsive Design */
@@ -447,13 +592,95 @@ img{
     .footer-right {
         margin-top: 30px;
     }
+    .footer-column{
+        display: flex;
+        flex-direction: column;
+    }
 
     .footer-links {
-        flex-direction: column;
-        gap: 20px;
+        gap: 0px;
+        display: flex;
         text-align: left;
+        display: flex;
+        padding-left: 0em;
+        flex-direction: column;
     }
+    
+    .footer-right.footer-column{
+        display: flex;
+    flex-direction: column;
+    }
+
     .footer-left-subs{
         text-align: left !important;
+    }
+}
+
+.email-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.email-box input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: #006370;
+}
+
+
+.email-box input:hover,
+.email-box input:focus {
+    border-color: #4dc3c4; /* Change border color on hover or focus */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly less transparent on hover */
+}
+
+.error-message {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    display: none; /* Hidden by default */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .footer-left-subs {
+        text-align: left !important;
+    }
+}
+
+
+.row-column {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+    text-align: left;
+}
+.row-column h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 3rem;
+    line-height: 1.35em;
+}
+.row-column p {
+    font-size: 1.8rem;
+    line-height: 1.5em;
+    font-weight: normal;
+    margin: 0 0 1.25rem;
+}
+
+@media (max-width: 1024px) {
+    .row-column h3 {
+        margin-top: 2em;
+        margin-bottom: 0.8em;
+    }
+    .row-column p {
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        font-weight: normal;
+        margin: 0 0 1.25rem;
     }
 }

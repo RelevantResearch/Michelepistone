@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+
 </head>
 <body>
 
@@ -58,7 +60,6 @@
 
 
         <!-- Row 3 -->
-        <!-- Row 3 -->
         <div class="row color-3">
             <div class="new-model-section">
                 <div class="quote-wrapper">
@@ -78,39 +79,27 @@
 
 
 
-    <!-- New Model Section -->
+
         <!-- Row 4 -->
         <div class="row color-4">
             <div class="new-model-section">
                 <div class="h1">
                     <h1>BRIDGING THE GAP IN IMMIGRANT JUSTICE</h1>
                 </div>
-                
-                
                 <!-- Add your image here -->
                 <img src="img/Sidewalk.jpg" alt="Immigrant Justice Image" class="immigrant-justice-img" />
-                <section class="text-block module-section text-block-8 background-on">
-                    <div class="container-fluid">
-                        <div class="row center-xs">
-                            <div class="col-xs-12 col-lg-8 start-xs">
-                                <h2>The stakes in immigration cases are high. That’s why we started by focusing on immigrant justice.</h2>
-                                <h3>By training new groups of advocates for the jobs that support immigrant families, we can build a new force for representation.</h3>
-
-                                <h3>Recruit</h3>
-                                <p>Educate the many aspiring champions for immigrant justice: social, pastoral and healthcare workers, recent college graduates, legal professionals, first-generation immigrants, retirees, community organizers, teachers and more.</p>
-
-                                <h3>Train</h3>
-                                <p>Provide affordable and interdisciplinary education in immigrant advocacy, focused on what the practicing immigration ecosystem knows to be most important – Professor Pistone’s curriculum delivers all you need to professionally and ethically represent immigrants.</p>
-
-                                <h3>Connect</h3>
-                                <p>Build community among like-minded organizers, educators, nonprofits and immigrant families around the country – and a pipeline of new advocates ready to make an immediate difference.</p>
-
-                                <div class="label">Professor Pistone’s curriculum</div>
-                                <p>Represents the cutting edge in immigration law and practice, redesigned to effectively train and mobilize advocates to serve immigrants and secure better outcomes.</p>
-                            </div>	
-                        </div>
-                    </div>
-                </section>
+                <div class="row-column">
+                    <h2>The stakes in immigration cases are high. That’s why we started by focusing on immigrant justice.</h2>
+                    <h3>By training new groups of advocates for the jobs that support immigrant families, we can build a new force for representation.</h3>
+                    <h3>Recruit</h3>
+                    <p>Educate the many aspiring champions for immigrant justice: social, pastoral and healthcare workers, recent college graduates, legal professionals, first-generation immigrants, retirees, community organizers, teachers and more.</p>
+                    <h3>Train</h3>
+                    <p>Provide affordable and interdisciplinary education in immigrant advocacy, focused on what the practicing immigration ecosystem knows to be most important – Professor Pistone’s curriculum delivers all you need to professionally and ethically represent immigrants.</p>
+                    <h3>Connect</h3>
+                    <p>Build community among like-minded organizers, educators, nonprofits and immigrant families around the country – and a pipeline of new advocates ready to make an immediate difference.</p>
+                    <div class="label">Professor Pistone’s curriculum</div>
+                    <p>Represents the cutting edge in immigration law and practice, redesigned to effectively train and mobilize advocates to serve immigrants and secure better outcomes.</p>
+                </div>	
             </div>
         </div>
 
@@ -132,29 +121,26 @@
         </div>
 
         <!-- Row 6 -->
-        <!-- Row 6 -->
-        <!-- Row 6 -->
-        <!-- Row 6 -->
         <div class="row color-6">
             <div class="new-model-section">
                 <div class="h1">
                     <h1>HOW YOU CAN HELP</h1>
                 </div>
 
-                <div class="col-layout-third">
-                    <h2 class="h3-style">Apply for VIISTA at Villanova University</h2>
+                <div class="col-layout-first">
+                    <h3 class="h3-style">Apply for VIISTA at Villanova University</h3>
                     <p>Put your passion into practice. Train to represent immigrant families in need.</p>
                     <a href="https://web.archive.org/web/20220322053648/https://www1.villanova.edu/university/professional-studies/academics/professional-education/viista.html" class="button" target="_blank">APPLY NOW</a>
                 </div>
 
-                <div class="col-layout-third">
-                    <h2 class="h3-style">Rethink Your Approach</h2>
+                <div class="col-layout-second">
+                    <h3 class="h3-style">Rethink Your Approach</h3>
                     <p>Learn to design law courses that are student-centered and fun to teach.</p>
                     <a href="https://web.archive.org/web/20220322053648/mailto:michele@michelepistone.org" class="button" target="self">CONTACT US</a>
                 </div>
 
                 <div class="col-layout-third">
-                    <h2 class="h3-style">Educators: Register for our “Bootcamp”</h2>
+                    <h3 class="h3-style">Educators: Register for our “Bootcamp”</h3>
                     <p>Join us June 23-25 to learn best practices in designing your law school course.</p>
                     <a href="https://web.archive.org/web/20220322053648/https://www.eventbrite.com/e/bootcamp-designing-your-law-course-tickets-152562469453?aff=ebdsoporgprofile" class="button" target="self">SIGN UP</a>
                 </div>
@@ -172,10 +158,14 @@
                         <div class="footer-left">
                             <p class="footer-title">Michele Pistone</p>
                             <p>Signup to receive educator and advocate resources and updates on our progress.</p>
+                            
+                            <div class="email-box">
+                                <input type="email" value name="EMAIL" class="required email mce_inline_error" id="mce-EMAIL" aria-required="true" aria-invalid="false">
+                                <span class="error-message" id="error-message" style="display: none; color: red;">Please enter a valid email address.</span>
+                            </div>
                             <hr class="footer-line">
                             <div class="footer-left-subs">
-                                <a href="#" class="footer-button">SUBSCRIBE</a>
-                                <p class="copyright">© 2021 Michele Pistone</p>
+                                <a href="#" class="footer-button" id="subscribe-button">SUBSCRIBE</a>
                             </div>
                         </div>
                 
@@ -198,6 +188,10 @@
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+                    <div class="footer-down-subs">
+                        <p class="copyright">© 2021 Michele Pistone. Website by <a href="https://relevant-research.com/">Relevant Research</a></p>
                     </div>
                 </div>
             </footer>
