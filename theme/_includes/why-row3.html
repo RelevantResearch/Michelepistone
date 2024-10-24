@@ -1,0 +1,66 @@
+<div class="row color-2">
+    <div class="new-model-section">
+        <h1>{{ site.data.why.section3_settings.title }}</h1>
+        <h2 class="h3-style">{{ site.data.why.section3_settings.opportunity.heading }}</h2>
+        <p class="advocate">{{ site.data.why.section3_settings.opportunity.description }}</p>
+
+        <h2 class="h3-style">{{ site.data.why.section3_settings.model.heading }}</h2>
+        <p class="advocate">{{ site.data.why.section3_settings.model.description }}</p>
+
+        {% for feature in site.data.why.section3_settings.model.features %}
+        <div class="label2">{{ feature.label }}</div>
+        <p class="labelp">{{ feature.detail }}</p>
+        {% endfor %}
+
+        {% for adocate in site.data.why.section3_settings.model.adocate %}
+        <p class="advocate">{{ adocate.text }}</p>
+        {% endfor %}
+
+        <div class="col-layout-first">
+            {% for module1 in site.data.why.section3_settings.module1 %}
+            <h3 class="h3-style">{{ module1.title }}</h3>
+            <p>
+                <ul>
+                    {% for item in module1.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </p>
+            {% endfor %}
+        </div>
+        <div class="col-layout-second">
+            {% for module2 in site.data.why.section3_settings.module2 %}
+            <h3 class="h3-style">{{ module2.title }}</h3>
+            <p>
+                <ul>
+                    {% for item in module2.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </p>
+            {% endfor %}
+        </div>
+        <div class="col-layout-third">
+            {% for module3 in site.data.why.section3_settings.module3 %}
+            <h3 class="h3-style">{{ module3.title }}</h3>
+            <p>
+                <ul>
+                    {% for item in module3  .items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </p>
+            {% endfor %}
+        </div>
+
+        <h2 class="h3-style">{{ site.data.why.section3_settings.difference.heading }}</h2>
+        <p class="advocate">{{ site.data.why.section3_settings.difference.description }}</p>
+        
+        {% for stat in site.data.why.section3_settings.difference.stats %}
+        <div class="col-layout-first">
+            <h1 class="h3-diff">{{ stat.count }}</h1>
+            <p>{{ stat.detail }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

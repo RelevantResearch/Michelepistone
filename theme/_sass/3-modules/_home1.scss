@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif; /* Add a common fallback font */
 }
 
 /* Container div */
@@ -14,20 +14,21 @@ body {
     flex-direction: column;
     width: 100%;
 }
+
+/* Logo styling */
 .logo {
     color: #fff;
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
     text-decoration: none;
-    background-color: transparent;
     font-family: "Gascogne-TS-Medium", serif;
     font-size: 2rem;
-    display: flex;
     align-items: center;
     margin-left: 78px;
 }
 
+/* Navbar styling */
 header.navbar {
     display: flex;
     justify-content: space-between;
@@ -43,109 +44,63 @@ header.navbar {
     height: 115px;
 }
 
-.h1-row h1{
-    color: #F2C242;
-    font-size: 5.625rem;
-    text-transform: uppercase;
-    margin: 0rem 0 5.5rem;
-    font-family: "Apercu-Medium", serif;
-    font-weight: normal;
-    letter-spacing: 2px;
-}
-
 /* Common row styling */
 .row {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    
+    width: 100%;
 }
 
 /* Color classes */
+.color-1, .color-2, .color-3 {
+    width: 100%;
+}
+
 .color-1 {
     background-color: #006370;
-    color: white; 
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 110px;
+    color: white;
+    margin-top: 106px;
 }
 
 .color-2 {
     background-color: white;
     color: #006370;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px;
-    min-height: 100vh; 
-    margin-left: 5em;
+    margin-top: 106px;
 }
-
 
 .color-3 {
     background-color: #58BBB8;
-    color: black; 
-}
-
-.color-4 {
-    flex-wrap: wrap;
-    width: 100%;
-}
-.color-5 {
-    flex-wrap: wrap;
-    width: 100%;
-}
-.color-6 {
-    flex-wrap: wrap;
-    width: 100%;
-}
-.color-7 {
-    flex-wrap: wrap;
-    width: 100%;
+    color: black;
 }
 
 /* H2 row */
 .h2-row {
-    text-align: justify;
+    text-align: center;
     padding: 20px;
-    font-family: "Apercu-Light", sans-serif;
 }
 
 .h2-row h2 {
-    margin-bottom: 60px !important;
-    text-align: left;
-}
-.h2-row h3 {
+    font-size: 1.8rem;
     margin: 0;
     line-height: 1.4;
     color: white;
-    font-size: 1.7rem;
-    font-weight: normal;
-    text-align: left;
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-}
-.h2-row p{
-    line-height: 1.5em;
-    font-weight: normal;
-    text-align: left;
 }
 
 /* Statistics section styling */
 .statistics-row {
     display: flex;
     justify-content: space-around;
-    padding: 0px 20px;
-    background-color: transparent; 
+    padding: 40px 20px;
+    background-color: transparent;
     color: white;
-    text-align: justify;
-    
+    text-align: center;
 }
 
 .stat-column {
     flex: 1;
-    min-width: 300px; 
+    min-width: 300px;
     padding: 10px;
 }
 
@@ -153,14 +108,6 @@ header.navbar {
     font-size: 5.625rem !important;
     font-weight: normal;
     margin: 4rem 0 1.5rem;
-}
-.stat-column h3 {
-    font-family: "Gascogne-TS-Medium", serif;
-    font-weight: normal;
-    font-size: 2rem;
-    line-height: 1.35em;
-    margin-bottom: 1.5rem;
-    padding-top: 60px;
 }
 
 .stat-column p {
@@ -171,90 +118,104 @@ header.navbar {
     padding: 0;
     border: 0;
     margin: 0;
+    text-align: left;
 }
 
-.label1 {
-    line-height: 1.5em;
-    margin: 2.5rem 0 .75rem;
-    text-transform: uppercase;
-    font-family: "Apercu-Medium", sans-serif;
-    font-size: 1.375rem;
-    letter-spacing: 1px;
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 1024px) {
+    .navbar {
+        padding: 10px;
+        height: 100px;
+    }
+
+    .logo {
+        margin-left: 50px;
+        font-size: 1.8rem;
+    }
+
+    .h2-row h2 {
+        font-size: 1.6rem;
+    }
+
+    .statistics-row {
+        padding: 30px 10px;
+    }
+
+    .stat-column h1 {
+        font-size: 4.5rem;
+    }
+
+    .stat-column p {
+        font-size: 1.25rem;
+    }
 }
 
-.label2 {
-    margin-bottom: .5rem;
-    text-transform: uppercase;
-    font-family: "Apercu-Medium", sans-serif;
-    font-size: 1.5rem;
-    line-height: 1em;
-    color: #006370;
-    letter-spacing: 1px;
-    margin: 3.75rem 0 .75rem;
-}
-
-p.labelp {
-    margin: 0 0 1.5rem;
-    font-size: 1.5rem;
-    line-height: 1.5em;
-    font-weight: normal;
-    color: #006370;
-    font-family: "Apercu-Medium", sans-serif;
-    letter-spacing: 1px;
-}
-
-.row.color-2.new-model-section p {
-    margin: 0 0 1.5rem;
-    font-size: 1.5rem;
-    line-height: 1.5em;
-    font-weight: normal;
-    color: #006370;
-    font-family: "Apercu-Medium", sans-serif;
-}
-
-
-/* Responsive stacking on smaller screens */
+/* Further adjustments for tablets and small devices */
 @media screen and (max-width: 768px) {
-
-    .label2{
-        margin-bottom: .5rem;
-        line-height: 1.5em;
-        text-transform: uppercase;
-        font-family: "Apercu-Medium", sans-serif;
-        font-size: 1.375rem;
-        /* line-height: 1em; */
-        letter-spacing: 1px;
-        color: #006370;
-    }
-
-    .h2-row{
-        text-align: left;
-    }
     .statistics-row {
         flex-direction: column;
         align-items: center;
     }
 
     .stat-column {
-        width: 100%; 
+        width: 100%;
         text-align: center;
         padding: 20px 0;
     }
 
     .stat-column h1 {
-        font-size: 3rem; 
+        font-size: 3rem;
     }
 
     .stat-column p {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
-    .stat-column h3{
-        text-align: left;
+
+    .navbar {
+        padding: 8px;
+        height: 90px;
     }
-    .label1 {
-        text-align: left;
+
+    .logo {
+        margin-left: 20px;
+        font-size: 1.6rem;
+    }
+
+    .h2-row h2 {
+        font-size: 1.4rem;
     }
 }
+
+/* Final responsive tweaks for mobile devices */
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 6px;
+        height: 80px;
+    }
+
+    .logo {
+        margin-left: 10px;
+        font-size: 1.4rem;
+    }
+
+    .h2-row h2 {
+        font-size: 1.2rem;
+    }
+
+    .statistics-row {
+        padding: 20px 0;
+    }
+
+    .stat-column h1 {
+        font-size: 2.5rem;
+    }
+
+    .stat-column p {
+        font-size: 0.9rem;
+    }
+}
+
+/* ******************************************** */
 
 /* Message row styling */
 .message-row {
@@ -287,29 +248,26 @@ p.labelp {
     color: #006370;
 }
 
-/* Row 2 styling
+/* Row 2 styling */
 .row.color-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
-    min-height: 100vh; /
-} */
+    min-height: 100vh;
+}
 
 /* New Model Section in Row 2 */
 .new-model-section {
-    max-width: 900px; 
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .new-model-section h1 {
-    color: #F7924B;
+    color: #58BBB8; 
     font-size: 5.625rem;
-    text-transform: uppercase;
-    margin: 0rem 0 5.5rem;
-    font-family: "Apercu-Medium", serif;
+    margin-bottom: 20px;
     font-weight: normal;
-    letter-spacing: 2px;
 }
 
 .new-model-section h2 {
@@ -319,6 +277,7 @@ p.labelp {
     font-weight: normal;
     line-height: 1.277em;
 }
+
 
 
 .new-model-section p {
@@ -331,7 +290,7 @@ p.labelp {
 /* row 3 start */
 /* Container for Row 3 */
 .row.color-3 {
-    background-color: #F7924B; 
+    background-color: #58BBB8; 
     padding: 50px 20px;
     display: flex;
     flex-direction: column;
@@ -347,21 +306,16 @@ p.labelp {
 
 /* Blockquote styling */
 .quote-wrapper {
-    /* max-width: 800px; */
     margin-bottom: 20px;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 3.25em !important;
-
-}
-
-blockquote {
-    font-size: 2rem;
+    font-size: 2em;
     line-height: 1.6;
     justify-content: center;
     width: auto;
     font-family: 'Gascogne-TS-Medium', serif;
-    text-align: justify;
 }
+
 
 /* Author and details section aligned to the left */
 .author-wrapper, .details-wrapper {
@@ -410,30 +364,9 @@ img{
     font-size: 1.5rem;
 }
 
-.row-column.list-p {
-    font-size: 1rem;
-    line-height: 1.5em;
-    font-weight: normal;
-    margin: 0 0 1.25rem;
-}
-
-.list-p p {
-    font-size: 1.5rem !important;
-}
-.link-p a {
-    color: white !important; /* Make links white */
-    text-decoration: underline; /* Optional: Remove underline from links */
-    font-size: 1.5rem;
-}
-.link-p p {
-    font-size: 1.5rem !important;
-}
 
 /* Responsive Styling for Smaller Screens */
 @media screen and (max-width: 768px) {
-    blockquote{
-        text-align: left;
-    }
     .new-model-section h1 {
         font-size: 2rem; 
     }
@@ -447,8 +380,7 @@ img{
     }
 
     .new-model-section p {
-        font-size: 1.5em; 
-        text-align: left;
+        font-size: 1rem; 
     }
 }
 
@@ -479,13 +411,12 @@ img{
 
 /* Column layout styling */
 .col-layout-third {
-    width: 24%; 
+    width: 28%; 
     display: inline-block;
     vertical-align: top;
     padding: 0 15px;
     margin-bottom: 30px;
-    text-align: left;
-    margin-left: 15px; 
+    text-align: left; 
 }
 .col-layout-second {
     width: 28%;
@@ -494,7 +425,6 @@ img{
     padding: 0 15px;
     margin-bottom: 30px;
     text-align: left;
-    margin-left: 31px;
 }
 .col-layout-first {
     width: 28%;
@@ -504,46 +434,6 @@ img{
     margin-bottom: 30px;
     text-align: left;
 }
-.col-layout-first ul {
-    list-style-type: square;
-    font-size: 1.5rem;
-    margin: 0;
-    margin-left: -51px;
-    line-height: 1.5em;
-    font-weight: normal;
-}
-
-.col-layout-second ul {
-    list-style-type: square;
-    font-size: 1.5rem;
-    margin: 0;
-    margin-left: -51px;
-    line-height: 1.5em;
-    font-weight: normal;
-    width: 81%;
-}
-.col-layout-third ul {
-    list-style-type: square;
-    font-size: 1.5rem;
-    margin: 0;
-    margin-left: -69px;
-    line-height: 1.5em;
-    font-weight: normal;
-}
-li {
-    margin-bottom: .95em;
-}
-
-h1.h3-diff {
-    color: #F2C242;
-    font-size: 5.625rem;
-    text-transform: uppercase;
-    margin: 4rem 0 1.5rem;
-    font-family: "Apercu-Medium", serif;
-    font-weight: normal;
-    letter-spacing: 2px;
-}
-
 /* Ensure that all columns are not on the same line as the h1 */
 .row.color-6 .col-layout-third {
     display: inline-block;
@@ -605,7 +495,7 @@ h1.h3-diff {
     color: #006370;
     line-height: 50px;
     padding: 4px 1.5rem 0;
-    border: 3px solid #F7924B;
+    border: 3px solid #58BBB8;
     background-color: transparent;
     text-decoration: none;
     cursor: pointer;
@@ -901,39 +791,4 @@ p.copyright{
         font-weight: normal;
         margin: 0 0 1.25rem;
     }
-}
-
-/* videoo */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* Aspect ratio of 16:9 */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background: #000;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-p.advocate {
-    font-family: "Apercu-Light", sans-serif;
-}
-
-p.advocate a {
-    color: #006370;
-}
-
-p.advocate a:hover {
-    color: orange;
-}
-
-p.labelp {
-    font-size: 1.2rem;
 }

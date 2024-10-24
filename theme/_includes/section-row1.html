@@ -1,0 +1,34 @@
+{% if site.data.home.section1_settings.enable == true %}
+<div class="row color-1">
+    <div class="new-model-section">
+        <!-- New Row with H2 Text -->
+        <div class="h2-row">
+            {% if site.data.home.section1_settings.section_h2 %}
+                <h2>
+                    {{ site.data.home.section1_settings.section_h2 }}
+                </h2>
+            {% endif %}
+        </div>
+        <!-- Statistics Section -->
+        <div class="statistics-row">
+            {% for percentage_data in site.data.home.section1_percentage %}
+            <div class="stat-column">
+                {% if percentage_data.percentage %}
+                <h1>
+                    {{ percentage_data.percentage }}
+                </h1>
+                {% endif %}
+                <p>{{ percentage_data.p_description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- Message and Button -->
+        <div class="message-row">
+            <p>
+                {{ site.data.home.section1_settings.message_row }}
+            </p>
+            <button class="join-btn"> {{ site.data.home.section1_settings.button_text }} </button>
+        </div>
+    </div>
+</div>
+{% endif %}

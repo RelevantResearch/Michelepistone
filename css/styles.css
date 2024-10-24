@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -38,35 +42,37 @@ header.navbar {
     transition: height 0.3s;
     height: 115px;
 }
+
 /* Common row styling */
 .row {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    
+    width: 100%;
 }
 
 /* Color classes */
+.color-1, .color-2, .color-3 {
+    width: 100%;
+}
+
 .color-1 {
     background-color: #006370;
     color: white; 
-    flex-wrap: wrap;
-    width: 100%;
     margin-top: 106px;
 }
 
 .color-2 {
     background-color: white;
     color: #006370; 
+    margin-top: 106px;
 }
 
 .color-3 {
     background-color: #58BBB8;
     color: black; 
 }
-
-
 
 /* H2 row */
 .h2-row {
@@ -78,7 +84,7 @@ header.navbar {
     font-size: 1.8rem;
     margin: 0;
     line-height: 1.4;
-    color: white; /
+    color: white;
 }
 
 /* Statistics section styling */
@@ -89,12 +95,11 @@ header.navbar {
     background-color: transparent; 
     color: white;
     text-align: center;
-    
 }
 
 .stat-column {
     flex: 1;
-    min-width: 300px; 
+    min-width: 300px;
     padding: 10px;
 }
 
@@ -173,12 +178,12 @@ header.navbar {
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
-    min-height: 100vh; /
+    min-height: 100vh;
 }
 
 /* New Model Section in Row 2 */
 .new-model-section {
-    max-width: 900px; 
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -196,6 +201,7 @@ header.navbar {
     font-weight: normal;
     line-height: 1.277em;
 }
+
 
 
 .new-model-section p {

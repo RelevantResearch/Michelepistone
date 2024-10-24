@@ -1,0 +1,33 @@
+<div class="row color-6">
+    <div class="new-model-section">
+        <div class="h1">
+            <h1>ADVOCATE RESOURCES</h1>
+        </div>
+
+        {% assign resources = site.data.why.section5_settings %}
+        {% for resource in resources.resources1 %}
+        <div class="col-layout-first">
+            <h3 class="h3-style">{{ resource.title }}</h3>
+            <p>{{ resource.description }}</p>
+            <a href="{{ resource.link }}" class="button" target="_blank">{{ resource.button_text }}</a>
+        </div>
+        {% endfor %}
+        
+        {% for resource in resources.resources2 %}
+        <div class="col-layout-second">
+            <h3 class="h3-style">{{ resource.title }}</h3>
+            <p>{{ resource.description }}</p>
+            <a href="{{ resource.link }}" class="button" target="_blank">{{ resource.button_text }}</a>
+        </div>
+        {% endfor %}
+
+        {% for resource in resources.resources3 %}
+        <div class="col-layout-third">
+            <h3 class="h3-style">{{ resource.title }}</h3>
+            <p>{{ resource.description }}</p>
+            <a href="{{ resource.link }}" class="button" target="_blank">{{ resource.button_text }}</a>
+        </div>
+        {% endfor %}
+        
+    </div>
+</div>

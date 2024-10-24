@@ -79,7 +79,6 @@ header.navbar {
     align-items: center;
     padding: 50px 20px;
     min-height: 100vh; 
-    margin-left: 5em;
 }
 
 
@@ -351,10 +350,6 @@ p.labelp {
     margin-bottom: 20px;
     text-align: center; 
     margin-bottom: 3.25em !important;
-
-}
-
-blockquote {
     font-size: 2rem;
     line-height: 1.6;
     justify-content: center;
@@ -362,11 +357,10 @@ blockquote {
     font-family: 'Gascogne-TS-Medium', serif;
     text-align: justify;
 }
-
 /* Author and details section aligned to the left */
 .author-wrapper, .details-wrapper {
     max-width: 800px;
-    margin: 0px auto 0 auto; 
+    margin: 0; 
     text-align: left; 
 }
 
@@ -494,7 +488,7 @@ img{
     padding: 0 15px;
     margin-bottom: 30px;
     text-align: left;
-    margin-left: 31px;
+    /* margin-left: 31px; */
 }
 .col-layout-first {
     width: 28%;

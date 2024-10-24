@@ -1,0 +1,77 @@
+section1_settings:
+  enable: true
+  section_h2: "Michele Pistone is a visionary teacher, lawyer, and scholar, passionate about transforming legal education in support of expanding access to justice."
+  message_row: "Our current system cannot possibly meet the urgent need for representation. But we can transform our legal services ecosystem to make it work for everyone. We’ve already started in immigration."
+  button_text: "JOIN US"
+
+section1_percentage:
+  - percentage: "80%"
+    p_description: "of the civil legal needs of low-income families go unmet in some parts of the US."
+  - percentage: "60%"
+    p_description: "of immigrants facing deportation—including children—go to court without an advocate."
+  - percentage: "95%"
+    p_description: "of all successful immigration cases have the support of an attorney or representative."
+
+section2_settings:
+  enable: true
+  title: "A NEW MODEL FOR TEACHING THE LAW"
+  subtitle: "Pistone’s instructional design creates a new way to train the advocates needed to expand access to justice."
+  paragraphs:
+    - "It’s time to make legal education work for the diverse students, advocates, and professionals ready to transform our system – and for the thousands of people currently denied access to justice each year."
+    - "By redesigning our curriculum to connect topics in the law with practical skills, we can revolutionize our field."
+    - "Student-centered course design starts with students’ goals: what they value, need to know, and want to do in their lives and careers. With that understanding in mind, we can design a curriculum that specifically teaches to those articulated and vetted learning goals. All the course content and learning activities create opportunities for student learning when students put that knowledge to work through active, problem-based learning. As students actively engage in learning, they demonstrate whether they met the goals and receive feedback that supports further learning."
+  image:
+    src: "img/image.png"
+    alt: "Description of the image"
+
+section3_settings:
+  enable: true
+  quote: "Professor Pistone’s design, student performance measurements, and assessments overall are the best example of bringing legal education up to speed that we’ve seen, not to mention the proficient use of online resources to expand the possibility for education more generally."
+  author: "ZACK DEMEOLA"
+  title: "Director of Legal Education and the Legal Profession"
+  organization: "Institute for the Advancement of the American Legal System"
+
+section4_settings:
+  enable: true
+  title: "BRIDGING THE GAP IN IMMIGRANT JUSTICE"
+  image:
+    src: "img/Sidewalk.jpg"
+    alt: "Immigrant Justice Image"
+  subtitle: "The stakes in immigration cases are high. That’s why we started by focusing on immigrant justice."
+  paragraph: "By training new groups of advocates for the jobs that support immigrant families, we can build a new force for representation."
+  paragraphs:
+    - title: "Recruit"
+      content: "Educate the many aspiring champions for immigrant justice: social, pastoral and healthcare workers, recent college graduates, legal professionals, first-generation immigrants, retirees, community organizers, teachers and more."
+    - title: "Train"
+      content: "Provide affordable and interdisciplinary education in immigrant advocacy, focused on what the practicing immigration ecosystem knows to be most important – Professor Pistone’s curriculum delivers all you need to professionally and ethically represent immigrants."
+    - title: "Connect"
+      content: "Build community among like-minded organizers, educators, nonprofits and immigrant families around the country – and a pipeline of new advocates ready to make an immediate difference."
+  label: "Professor Pistone’s curriculum"
+  final_paragraph: "Represents the cutting edge in immigration law and practice, redesigned to effectively train and mobilize advocates to serve immigrants and secure better outcomes."
+
+section5_settings:
+  enable: true
+  quote: "Professor Pistone’s curriculum is the most comprehensive syllabus I have ever seen by far. So many of the activities brought me back to similar learning experiences that I had to stumble on accidentally early in my career – but were extremely important in shaping my understanding of the larger issues."
+  author: "JUDGE JEFF CHASE"
+  title: "Retired immigration judge"
+
+section6_settings:
+  enable: true
+  title: "HOW YOU CAN HELP"
+  columns:
+    - title: "Apply for VIISTA at Villanova University"
+      content: "Put your passion into practice. Train to represent immigrant families in need."
+      button_text: "APPLY NOW"
+      button_link: "https://www1.villanova.edu/university/professional-studies/academics/professional-education/viista.html"
+      button_target: "_blank"
+    - title: "Rethink Your Approach"
+      content: "Learn to design law courses that are student-centered and fun to teach."
+      button_text: "CONTACT US"
+      button_link: "mailto:michele@michelepistone.org"
+      button_target: "self"
+    - title: "Educators: Register for our 'Bootcamp'"
+      content: "Join us June 23-25 to learn best practices in designing your law school course."
+      button_text: "SIGN UP"
+      button_link: "https://www.eventbrite.com/e/bootcamp-designing-your-law-course-tickets-152562469453?aff=ebdsoporgprofile"
+      button_target: "self"
+
