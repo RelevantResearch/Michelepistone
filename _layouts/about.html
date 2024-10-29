@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="/assets/css/about.css">
+{% include head.html %}
+
+<body>
+    {% if site.data.settings.google-analytics %}
+        {% include google-analytics.html %}
+    {% endif %}
+  {% include header.html %}
+  <div class="container">
+    {% include about-row1.html %}
+    {% include about-row2.html %}
+    {% include about-row3.html %}
+    {% include about-row4.html %}
+    {% include about-row5.html %}
+    {% include about-row6.html %}
+    {% include section-footer.html %}
+</div>
+</body>
+
+</html>

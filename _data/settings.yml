@@ -1,0 +1,38 @@
+#-------------------------------
+# Site Settings
+title: Michele Pistone
+description: Associate Professor
+color_scheme: dark # You have the option to choose between three modes: auto, light, and dark. The default mode is set to auto, which means that the color scheme will automatically adapt based on your operating system settings. This way, you can enjoy a personalized experience without having to manually switch between light and dark modes.
+
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'HOME'
+      url: '/'
+    - title: 'ABOUT'
+      url: '/about/'
+    - title: 'WHY'
+      url: '/why/'
+    - title: 'CONTACT'
+      url: '/contact/'
+    
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email:  # Add your form_id
+  description: Thank you for visiting my website. If you would like to discuss research collaborations, PhD supervision, or have inquiries about my work on Indigenous land rights, resource politics, or other related topics, please feel free to get in touch by filling out the form below. I look forward to connecting with you.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+#-------------------------------
+# Google Analytics
+google-analytics:  # Add your GA Tracking Id

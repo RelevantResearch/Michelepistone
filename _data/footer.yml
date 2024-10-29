@@ -1,0 +1,32 @@
+footer_settings:
+  enable: true
+  left_column:
+    title: "Michele Pistone"
+    description: "Signup to receive educator and advocate resources and updates on our progress."
+    subscribe_placeholder: "Enter your email"
+    subscribe_button: "SUBSCRIBE"
+    error_message: "Please enter a valid email address."
+  right_column:
+    column1:
+      - label: "ABOUT"
+        link: "about.html"
+      - label: "WHY"
+        link: "why.html"
+      - label: "CONTACT"
+        link: "/"
+    column2:
+      - label: "VIISTA"
+        link: "https://www1.villanova.edu/university/professional-studies/academics/professional-education/viista.html"
+      - label: "LEGAL ED"
+        link: "http://legaledweb.com/"
+      - label: "CARES AT VILLANOVA"
+        link: "https://www1.villanova.edu/university/law/experience/clinics-externships/clinics/cares.html"
+    column3:
+      - label: "TWITTER"
+        link: "https://twitter.com/profpistone"
+      - label: "LINKEDIN"
+        link: "https://www.linkedin.com/in/michelepistone/"
+  footer_bottom:
+    copyright: "© 2021 Michele Pistone. Website by"
+    credit: "Relevant Research"
+    credit_link: "https://relevant-research.com/"
