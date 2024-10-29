@@ -11,11 +11,11 @@ menu_settings:
     - title: 'HOME'
       url: '/'
     - title: 'ABOUT'
-      url: '/about/'
+      url: '/about'
     - title: 'WHY'
-      url: '/why/'
+      url: '/why'
     - title: 'CONTACT'
-      url: '/contact/'
+      url: '/contact'
     
 
 
