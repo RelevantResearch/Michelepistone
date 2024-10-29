@@ -1,115 +1,21 @@
-# Penelope Anthias
+# Professor Michele Pistone
 
-Website for Penelope Anthias.
-To update any section of the page, simply navigate to the "Posts" section and select the specific area you'd like to modify.
+## Biography
+Michele Pistone is a professor of law and the founder and faculty director of the Strategic Initiative for Migrants + Refugees and VIISTA. She established and directed the Law School’s in-house Clinical Program for nine years and served as the director of the Clinic for Asylum, Refugee, and Emigrant Services (CARES) from 1999 to 2019.
 
-## Theme
+Pistone has taught at various institutions, including Georgetown University Law Center and American University Washington College of Law. She is an adjunct fellow at the Clayton Christensen Institute for Disruptive Innovation, co-authoring *Disrupting Law School: How Disruptive Innovation Will Revolutionize the Legal World*. Her research interests include technological innovations in law, immigration, and clinical education.
 
-Use Priam theme (see Slack for link to download). We should be able to plug and play with little modification.
+She is also a leader in legal education technology, founding LegalED, an online community focused on enhancing law teaching. Pistone has organized TEDx conferences and is a regular speaker on legal technology and education.
 
-## Website Structure
+## Practice Experience
+- **Corporate Associate**: Willkie Farr & Gallagher, NY Office (1989-1991)
+- **Telecommunications Associate**: Willkie Farr & Gallagher, DC Office (1991-1997)
+- **Asylum, Refugee, and Immigration Law Clinical Professor** (1997-2019)
 
-```
-|-- home (one feature photo at top)
-    |-- Latest updates (This section we will update monthly with upcoming events and recent announcements using bullet points)
-    |-- My research (This section is just text, maybe ~400 words and 3 short paragraphs)
-    |-- Book (feature one book, link to books page)
-    |-- Films (Two films)
-    |-- Publications (This section is a simple text block with the 4-5 most recent publications listed there, and users can click through to see all publications.)
-|-- Research  
-    |-- Reproduce the same text, links, and paragraphs on her faculty page here.
-|-- Publications (simple text page)
-    |-- academic articles
-    |-- books
-    |-- public articles
-    |-- other media
-|-- Films
-    |-- include two films both on youtube, add description
-|-- Updates 
-    (list of updates, announcements, and events by year and month)
-|-- teaching 
-    (do be determined)
-|-- impact 
-    (do be determined)
+## Additional Information
+Website by [Relevant Research](https://relevant-research.com/)
 
-```
+---
 
-## Domain
-
-I purchased penelopeanthias.com and gave Riwaj manager access.
-
-## Current Websites
-
-Faculty page: https://www.durham.ac.uk/staff/penelope-f-anthias/
-Her personal website (unfinished): https://panthias9.wordpress.com/
-
-
-# Priam – Minimalistic Portfolio Theme for Jekyll
-
-Unlock the potential of your creative prowess with Priam, a stunning and innovative portfolio theme for Jekyll. Whether you're an artist, designer, developer, or any professional looking to showcase your skills and accomplishments, this theme provides the perfect canvas for your online presence.
-
-* * *
-
-### Demo
-
-Check the theme in action [Live Demo](https://priam-jekyll.netlify.app/) |
-[Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
-
-* * *
-
-### Theme features
-
-- Works with GitHub Pages (host it for free)
-- Dark and light mode
-- No jQuery, only vanilla JS
-- 100% responsive Design
-- Clean Code
-- Optimized for mobile devices
-- Section Blog
-- Section Projects
-- Section Gallery
-- Section Testimonials
-- Super fast performance ⚡⚡⚡
-- Social sharing buttons
-- Syntax highlighting
-- Compatible with modern browsers
-- Medium style image zoom
-- Image Lazy loading
-- Image gallery
-- Tags Page
-- Supports Video Posts
-- Supports contact form (Formspree)
-- Supports MailChimp newsletter
-- Supports Disqus comments
-- Supports Google Analytics
-- Font Awesome icons
-- Free Google Fonts
-- Free Updates & Support
-
-* * *
-
-### Installation
-
-#### Installing Ruby & Jekyll
-
-If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
-
-* * *
-
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-* * *
-
-### Documentation
-
-Before using the Priam theme, please read the attached documentation.
-
-* * *
-
-### Support
-
-<p>If you have any questions or feedback about the theme, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>
+### Theme
+This project is themed by **Bishal Timsina** [timsinabishal232@gmail.com](mailto:timsinabishal232@gmail.com)
