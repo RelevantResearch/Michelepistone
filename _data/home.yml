@@ -13,8 +13,8 @@ section1_settings:
 section1_percentage:
   - percentage: "80%"
     p_description: "of the civil legal needs of low-income families go unmet in some parts of the US."
-  - percentage: "60%"
-    p_description: "of immigrants facing deportation—including children—go to court without an advocate."
+  - percentage: "70%"
+    p_description: "of immigrants facing deportation to court without an advocate."
   - percentage: "95%"
     p_description: "of all successful immigration cases have the support of an attorney or representative."
 
@@ -33,9 +33,9 @@ section2_settings:
 section3_settings:
   enable: true
   quote: "Professor Pistone’s design, student performance measurements, and assessments overall are the best example of bringing legal education up to speed that we’ve seen, not to mention the proficient use of online resources to expand the possibility for education more generally."
-  author: "ZACK DEMEOLA"
-  title: "Director of Legal Education and the Legal Profession"
-  organization: "Institute for the Advancement of the American Legal System"
+  author: "Zach DeMeola"
+  title: "Senior Director of Strategic Initiatives"
+  organization: "Law School Admissions Council (LSAC)"
 
 section4_settings:
   enable: true
