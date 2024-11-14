@@ -1,0 +1,102 @@
+section1_settings:
+  title: "Transformative<br> Legal<br> Education"
+  subtitle: "Teaching and learning are two distinct actions performed by two sets of actors."
+  description: "For decades, legal education has focused on teaching. Let’s focus on student learning."
+  statistics_paragraph: "For law to meet the needs of society, more students from diverse backgrounds need to learn the law and find career paths within the legal services industry. Backed by a curriculum that is student-centered, holistic, and aligned with practical, on-the-job tasks we can build new models for providing legal services. And with education that is online and scalable, we can ensure that every person confronting the justice system has an advocate."
+  video:
+    src: "https://www.youtube.com/embed/nsiQ6-JTOWM?feature=oembed"
+  together_we_can:
+    title: "Together We Can"
+    initiatives:
+      - label: "Inspire students to embrace and invest in the goals of their education"
+        content: "Set learning goals that reflect what students value, need to know and want to be able to do – with regular assessments that provide feedback so students know what they’ve learned."
+      - label: "Design our curriculum to look like legal practice"
+        content: "Integrate the knowledge, skills, values and ways of thinking that the law requires, with practical learning activities and exercises that demonstrate how learning applies on the job."
+      - label: "Engage potential employers in shaping student learning goals"
+        content: "Invite input from legal practitioners in course design so that students graduate equipped to meet employer expectations."
+      - label: "Embrace the opportunities offered by new technology"
+        content: "Embed online tools for learning, assessment and community-building in our course design that make learning fully engaging, flexible, collaborative and fun."
+
+section2_settings:
+  title: "Interested in new approaches to legal education?"
+  subtitle: "Professor Pistone is available to:"
+  initiatives:
+    - label: "Support legal academics and faculty members"
+      content: "To revise and develop curricula to support learning outcomes."
+    - label: "Advise legal services organizations"
+      content: "On designing training for paraprofessionals, law students, lawyers, and judges."
+    - label: "Consult with law schools"
+      content: "To develop scalable online teaching materials."
+    - label: "Present at conferences or for groups"
+      content: "About online teaching, the future of legal education, and what we’ve learned and accomplished in immigration."
+
+section3_settings:
+  quote: "Michele’s Bootcamp on designing a law course was an amazing resource and experience. I'm sure that it will become a required task for all professors intending to teach online (in fact it should be required whether the professor is teaching online or in-person). Too much teaching is still being done without any understanding of pedagogy."
+  author: "ALICE ARMITAGE"
+  title: "Professor of Law, Director of the Startup Legal Garage"
+  organization: "University of California Hastings"
+
+section4_settings:
+  title: "A VISIONARY TEACHER"
+  image: "/img/resized.jpg"
+  name: "Michele Pistone"
+  position: "Professor of Law, Creator and Faculty Director of VIISTA, Founder of LegalEDweb"
+  biography_1: "Professor Pistone has been a lawyer since 1989 and has been teaching law since 1997. She is a Professor of Law at Villanova University and taught at Georgetown Law, American University Washington College of Law, and the University of Malta, as a Fulbright scholar."
+  biography_2: "Pistone’s teaching model focuses on student learning. She is the founding director of Villanova Law School’s Clinical Program and the Clinic for Asylum, Refugee and Emigrant Services (CARES). Since the founding of CARES in 1999, Professor Pistone has been training law students to represent asylum seekers in immigration court and before the Department of Homeland Security. Now, with 20+ years of experience training law students to represent immigrants, she is expanding her model of legal education to allied professionals for the legal services industry."
+  awards:
+    - "JM Kaplan Innovation Prize 2019-2022"
+    - "Association of American Law Schools, Section on Technology, Law & Legal Education Award 2020"
+    - "Meyer ICE Innovation and Creative Excellence Award for Faculty 2020"
+    - "Sister Elizabeth Anne Seton Medal, St John’s University 2017"
+    - "St Thomas More Award, Society of Philadelphia 2018"
+    - "Expert on Migration, Holy See Mission to the United Nations on migration"
+    - "Fellow, Center for Migration Studies"
+    - "Fellow, Institute for the Advancement of the American Legal System (IAALS)"
+    - "Adjunct Fellow, Christensen Institute"
+  creator_links:
+    - url: "https://www.youtube.com/user/LegalEDweb"
+      title: "LegalEDweb"
+    - url: "https://www1.villanova.edu/university/professional-studies/academics/professional-education/viista.html"
+      title: "VIISTA"
+    - url: "https://www1.villanova.edu/university/law/experience/clinics-externships/clinics/cares.html"
+      title: "Clinic for Asylum, Refugee and Emigrant Services (CARES)"
+    - title_unlink: "Clinic Program at Villanova University School of Law"
+
+  speaking_links:
+    - url: "https://www.youtube.com/watch?v=t7ke95-Juw4&amp;t=2s"
+      title: "Ashoka Big Ideas Talk"
+    - url: "https://www.youtube.com/watch?v=nsiQ6-JTOWM&amp;t=21s"
+      title: "TEDxVillanovaU"
+  media_links:
+    - url: "https://www1.villanova.edu/content/dam/villanova/cps/VIISTA/Chronicle%20article-VIISTA.pdf"
+      title: "Chronicle of Higher Education"
+    - url: "https://www.dispatch.com/story/news/2020/11/23/could-new-program-mean-more-immigrants-win-asylum/6324471002/"
+      title: "Columbus Dispatch"
+    - url: "http://thefuturelawpodcast.com/?p=1137"
+      title: "Future Law Podcast"
+  scholarly_links:
+    - url: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=233762"
+      title: "SSRN"
+    - url: "https://works.bepress.com/michele_pistone/"
+      title: "Bepress"
+
+section5_settings:
+  quote: "My day to day work has shown me the huge gaps in access to legal representation across the country and the drastic disparity in outcomes, and this model allows people like me to gain a comprehensive understanding of immigration law and advocacy. I truly believe VIISTA is the future direction of the immigrant rights movement."
+  author: "NICOLE TAN"
+  title: "Paralegal, Asylum Seeker Advocacy Project"
+  organization: "VIISTA Student"
+
+section6_settings:
+  title: "EDUCATOR RESOURCES"
+  bootcamp:
+    title: "Register for our 'Bootcamp'"
+    description: "Join us June 23-25 to learn best practices in designing your law school course."
+    link: "https://www.eventbrite.com/e/bootcamp-designing-your-law-course-tickets-152562469453?aff=ebdsoporgprofile"
+  disrupting_law_school:
+    title: "Disrupting Law School"
+    description: "Read about how disruptive innovation will revolutionize the legal world, by Professor Michele Pistone and Michael B. Horn."
+    link: "https://www.christenseninstitute.org/publications/disrupting-law-school/"
+  igniting_law_teaching:
+    title: "Igniting Law Teaching"
+    description: "Watch TEDx-style talks from leading scholars on innovations in law school pedagogy."
+    link: "https://www.youtube.com/playlist?list=PLLxxzZq76ixxbd_KFvJYVxyezP8rxvQpY"

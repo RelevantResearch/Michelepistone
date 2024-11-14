@@ -1,0 +1,48 @@
+<!-- row-about 4 -->
+<div class="row-about color-4">
+    <div class="new-model-section">
+        <div class="h1">
+            <h1>{{ site.data.about.section4_settings.title }}</h1>
+        </div>
+        <!-- Add your image here -->
+        <img src="{{ site.data.about.section4_settings.image }}" alt="portrait picture" class="immigrant-justice-img" />
+        <div class="row-about-column">
+            <h2>{{ site.data.about.section4_settings.name }}</h2>
+            <h3 class="about-column">{{ site.data.about.section4_settings.position }}</h3>
+            <p>{{ site.data.about.section4_settings.biography_1 }}</p>
+            <p>{{ site.data.about.section4_settings.biography_2 }}</p>
+            <h2 class="row_colum">Select Publications & Media</h2>
+            <h3>Awards</h3>
+            <div class="list-p">
+                {% for award in site.data.about.section4_settings.awards %}
+                    <p>{{ award }}</p>
+                {% endfor %}
+            </div>
+            <h3>Creator</h3>
+            <div class="link-p">
+                {% for link in site.data.about.section4_settings.creator_links %}
+                    <p class="link-pp"><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></p>
+                    <p class="link-pp">{{ link.title_unlink }}</p>
+                {% endfor %}
+            </div>
+            <h3>Speaking</h3>
+            <div class="link-p">
+                {% for speaking in site.data.about.section4_settings.speaking_links %}
+                    <p><a href="{{ speaking.url }}" target="_blank" rel="noopener">{{ speaking.title }}</a></p>
+                {% endfor %}
+            </div>
+            <h3>Media Coverage</h3>
+            <div class="link-p">
+                {% for media in site.data.about.section4_settings.media_links %}
+                    <p><a href="{{ media.url }}" target="_blank" rel="noopener">{{ media.title }}</a></p>
+                {% endfor %}
+            </div>
+            <h3>Scholarly Articles</h3>
+            <div class="link-p">
+                {% for article in site.data.about.section4_settings.scholarly_links %}
+                    <p><a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a></p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

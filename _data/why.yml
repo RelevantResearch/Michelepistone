@@ -1,0 +1,99 @@
+section1_settings:
+  title: "Immigrant Justice"
+  subtitle: "If you’re passionate about immigrant rights, we can train you to represent migrants and refugees in legal proceedings."
+  message: "You don’t have to be a lawyer to change outcomes for immigrants."
+  paragraph1: "By training new groups of students passionate about immigrant rights and supporting the community organizations that work closely with migrants and refugees, we can build a new force for representation."
+  paragraph2: "VIISTA (Villanova Interdisciplinary Immigration Studies Training for Advocates) is the first university certificate program to train immigrant advocates – with a model that is practical, modular, and 100% online. Whether you’re an individual that wants to do more for migrant families, an immigrant-serving organization looking to expand your services, or an immigration law practice in need of support, our model for advocate training can help you change lives and promote justice."
+
+section2_settings:
+  quote: "VIISTA’s energy and commitment to humanity is palpable. I haven’t met other students in person, but I feel connected to them in a way that I never thought an online program could accomplish. I understand–in fact, I feel–the issues of immigration advocacy so much more deeply than I expected to. I expected legal training; I got something much, much bigger. I got a whole new way to look at the world."
+  author: "Eileen Doherty-Sil"
+  title: "Associate Director, Political Science Undergraduate Program,"
+  organization: "University of Pennsylvania & VIISTA graduate"
+
+section3_settings:
+  title: "Become an Immigrant Advocate"
+  opportunity:
+    heading: "The Opportunity"
+    description: >
+      Everyone confronting our immigration system deserves an advocate. 
+      But as many as 60% of all migrants – many of whom are children – contend with our legal system without a representative by their side. 
+      The consequences of this are substantial; 
+      <a href="https://www.vera.org/state-of-justice-reform/2019/immigration-enforcement" target="_blank">Vera Institute</a> found that migrants with a representative are 10 times more likely to secure relief. 
+      And with a backlog of more than 1.2 million pending cases our challenge is simple and urgent: we need more advocates.
+  model:
+    heading: "Our Model"
+    description: >
+      By focusing on the diverse set of immigrant-serving professionals, activists, students and volunteers passionate about our cause 
+      and training them to effectively represent immigrants, we can transform the legal landscape. 
+      VIISTA (Villanova Interdisciplinary Immigration Studies Training for Advocates) represents the cutting-edge in immigration law education and practices, delivered in a program that is:
+    features:
+      - label: "Fully modular and online"
+        detail: "Designed to meet individual students’ experience level and schedules in 10-15 hours per week."
+      - label: "Affordable"
+        detail: "Building skills in immigrant advocacy and accompaniment and the practical training required to handle cases professionally for less than $4,000 in tuition."
+      - label: "Interdisciplinary and community-driven"
+        detail: "Focused on what members of the immigration ecosystem told us are most important for new advocates to know and be able to do and building a portfolio of professional memos and experience that demonstrate learning."
+    adocate:
+      - text: "We designed the VIISTA curriculum around actionable learning goals and assessment tools that reflect real legal work. Learning activities journey students through the legal case planning process so students see the relevance of each activity and its applicability to real life practice."
+      - text: "Advocates complete our program ready to handle cases and change outcomes for immigrant families by building new skills and capacities in each Module."
+    curriculum:
+      description: >
+        We designed the VIISTA curriculum around actionable learning goals and assessment tools that reflect real legal work. 
+        Learning activities journey students through the legal case planning process so students see the relevance of each activity and its applicability to real life practice.
+      outcomes: >
+        Advocates complete our program ready to handle cases and change outcomes for immigrant families by building new skills and capacities in each Module.
+  module1:
+    - title: "Module 1"
+      items:
+        - "Contextualize the global migration phenomenon"
+        - "Demonstrate an understanding of the structure of government, sources of law and the immigration ecosystem"
+        - "Interview an immigrant: Appreciate and be sensitive to cultural differences"
+  module2:
+    - title: "Module 2"
+      items:
+        - "Conduct a thorough intake interview with a potential client"
+        - "Analyze new areas of the law to determine elements that need to be proven"
+        - "Assess & establish a case for eligibility"
+        - "Plan an immigration case and conduct legal research"
+  module3:  
+    - title: "Module 3"
+      items:
+        - "Conduct a removal hearing in immigration court"
+        - "Assess a client’s case for eligibility for relief from removal/deportation"
+        - "Plan an immigration case for proceedings before an immigration court"
+        - "Prepare a client and witnesses to testify in immigration court"
+  difference:
+    heading: "The Difference"
+    description: >
+      We can transform our legal services ecosystem to make it work for everyone. 
+      We’ve already started in immigration. Since our launch in August 2020, VIISTA has seen:
+    stats:
+      - count: "134"
+        detail: "new students enrolled in our program to become immigrant advocates"
+      - count: "73%"
+        detail: "of Module 1 students reenrolled for Module 2"
+      - count: "150%"
+        detail: "increase in enrollment from August 2020 to January 2021"
+
+section4_settings:
+  quote: "Our immigration system is broken and I cannot stand on the sidelines while so many immigrants are suffering. VIISTA is giving me the knowledge, skills and experience that will help make me part of a solution."
+  author: "JANE BRADY"
+  title: "VIISTA graduate"
+
+section5_settings:
+  resources1:
+    - title: "Pistone's Adjudication Planning Guide"
+      description: "Use this template to plan an adjudication before an immigration officer or judge. Careful planning will increase your client’s likelihood of success."
+      link: "https://mailchi.mp/53d83744566b/adjudication"
+      button_text: "DOWNLOAD"
+  resources2:
+  - title: "Pistone's 5-Stage Case Analysis Process Chart"
+    description: "Use this analysis process to assess whether an asylum seeker is eligible to apply for an immigration benefit or for relief from deportation and to guide your preparation of a case to secure asylum protection."
+    link: "https://mailchi.mp/82439d760251/case-analysis"
+    button_text: "DOWNLOAD"
+  resources3:
+    - title: "Video: Best Practices in Representing Asylum Seekers"
+      description: "Witness an asylum case from initial planning through to an adjudication on the merits. Written & Directed by Professor Pistone. Produced & Published by the American Law Institute (ALI)."
+      link: "https://www.youtube.com/playlist?list=PLLxxzZq76ixxw42mAVsAIPCIDBfpFkM4S"
+      button_text: "WATCH"

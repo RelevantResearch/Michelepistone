@@ -1,0 +1,15 @@
+<!-- navigation bar -->
+<header class="navbar">
+    <div class="logo">{{ site.data.settings.title }}</div>
+</header>
+
+<input type="checkbox" id="active">
+<label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+
+<div class="wrapper">
+    <ul>
+        {% for item in site.data.settings.menu_settings.menu_items %}
+            <li><a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,30 @@
+{% if site.data.home.section6_settings.enable %}
+<!-- Row 6 -->
+<div class="row color-6">
+    <div class="new-model-section">
+        <!-- Title Section -->
+        <div class="h1">
+            <h1>{{ site.data.home.section6_settings.title }}</h1>
+        </div>
+
+        <!-- Columns Section -->
+        <div class="col-layout-first">
+            <h3 class="h3-style">{{ site.data.home.section6_settings.columns[0].title }}</h3>
+            <p>{{ site.data.home.section6_settings.columns[0].content }}</p>
+            <a href="{{ site.data.home.section6_settings.columns[0].button_link }}" class="button" target="{{ site.data.home.section6_settings.columns[0].button_target }}">{{ site.data.home.section6_settings.columns[0].button_text }}</a>
+        </div>
+
+        <div class="col-layout-second">
+            <h3 class="h3-style">{{ site.data.home.section6_settings.columns[1].title }}</h3>
+            <p>{{ site.data.home.section6_settings.columns[1].content }}</p>
+            <a href="{{ site.data.home.section6_settings.columns[1].button_link }}" class="button" target="{{ site.data.home.section6_settings.columns[1].button_target }}">{{ site.data.home.section6_settings.columns[1].button_text }}</a>
+        </div>
+
+        <div class="col-layout-third">
+            <h3 class="h3-style">{{ site.data.home.section6_settings.columns[2].title }}</h3>
+            <p>{{ site.data.home.section6_settings.columns[2].content }}</p>
+            <a href="{{ site.data.home.section6_settings.columns[2].button_link }}" class="button" target="{{ site.data.home.section6_settings.columns[2].button_target }}">{{ site.data.home.section6_settings.columns[2].button_text }}</a>
+        </div>
+    </div>
+</div>
+{% endif %}

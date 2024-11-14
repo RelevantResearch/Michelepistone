@@ -1,0 +1,55 @@
+{% if site.data.footer.footer_settings.enable %}
+<!-- row-about 7: Footer -->
+<footer class="row color-7">
+    <div class="new-model-section">
+        <div class="footer-container">
+
+            <!-- Left Column -->
+            <div class="footer-left">
+                <p class="footer-title">{{ site.data.footer.footer_settings.left_column.title }}</p>
+                <p>{{ site.data.footer.footer_settings.left_column.description }}</p>
+
+                <div class="email-box">
+                    <input type="email" placeholder="{{ site.data.footer.footer_settings.left_column.subscribe_placeholder }}" name="EMAIL" class="required email mce_inline_error" id="mce-EMAIL" aria-required="true" aria-invalid="false">
+                    <span class="error-message" id="error-message" style="display: none; color: red;">{{ site.data.footer.footer_settings.left_column.error_message }}</span>
+                </div>
+                <hr class="footer-line">
+                <div class="footer-left-subs">
+                    <a href="#" class="footer-button" id="subscribe-button">{{ site.data.footer.footer_settings.left_column.subscribe_button }}</a>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="footer-right">
+                <div class="footer-links">
+                    <!-- Column 1 -->
+                    <div class="footer-column">
+                        {% for item in site.data.footer.footer_settings.right_column.column1 %}
+                        <a href="{{ item.link }}">{{ item.label }}</a>
+                        {% endfor %}
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="footer-column">
+                        {% for item in site.data.footer.footer_settings.right_column.column2 %}
+                        <a href="{{ item.link }}">{{ item.label }}</a>
+                        {% endfor %}
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="footer-column">
+                        {% for item in site.data.footer.footer_settings.right_column.column3 %}
+                        <a href="{{ item.link }}">{{ item.label }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-down-subs">
+            <p class="copyright">{{ site.data.footer.footer_settings.footer_bottom.copyright }} <a href="{{ site.data.footer.footer_settings.footer_bottom.credit_link }}">{{ site.data.footer.footer_settings.footer_bottom.credit }}</a></p>
+        </div>
+    </div>
+</footer>
+{% endif %}

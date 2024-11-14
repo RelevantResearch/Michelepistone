@@ -1,0 +1,49 @@
+{% if site.data.home.section1_settings.enable == true %}
+<div class="row color-1">
+    <div class="new-model-section">
+        
+        <div class="h1-slider">
+            <h1 class="h1-style">
+                <a href="{{ site.url }}/about" class="hover-1">
+                    <span class="line-1">{{ site.data.home.section1_settings.line1 }}</span><br>
+                    <span class="line-2">{{ site.data.home.section1_settings.line2 }}</span><br>
+                    <span class="line-3">{{ site.data.home.section1_settings.line3 }}</span>
+                </a><br>
+                <span class="line-4">{{ site.data.home.section1_settings.line4 }}</span><br>
+                <a href="{{ site.url }}/why" class="hover-2">
+                    <span class="line-5">{{ site.data.home.section1_settings.line5 }}</span><br>
+                    <span class="line-6">{{ site.data.home.section1_settings.line6 }}</span>
+                </a>
+            </h1>
+        </div>
+        <!-- New Row with H2 Text -->
+        <div class="h2-row">
+            {% if site.data.home.section1_settings.section_h2 %}
+                <h2>
+                    {{ site.data.home.section1_settings.section_h2 }}
+                </h2>
+            {% endif %}
+        </div>
+        <!-- Statistics Section -->
+        <div class="statistics-row">
+            {% for percentage_data in site.data.home.section1_percentage %}
+            <div class="stat-column">
+                {% if percentage_data.percentage %}
+                <h1>
+                    {{ percentage_data.percentage }}
+                </h1>
+                {% endif %}
+                <p>{{ percentage_data.p_description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- Message and Button -->
+        <div class="message-row">
+            <p>
+                {{ site.data.home.section1_settings.message_row }}
+            </p>
+            <button class="join-btn"> {{ site.data.home.section1_settings.button_text }} </button>
+        </div>
+    </div>
+</div>
+{% endif %}

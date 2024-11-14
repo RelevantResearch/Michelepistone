@@ -1,0 +1,36 @@
+#-------------------------------
+# Site Settings
+title: Michele Pistone
+description: Founder of VIISTA, Immigrant Advocate, Law Professor, TEDx Speaker & Licensee, and 2024 Rockefeller Foundation Bellagio Resident.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'HOME'
+      url: '/'
+    - title: 'ABOUT'
+      url: '/about'
+    - title: 'WHY'
+      url: '/why'
+    - title: 'CONTACT'
+      url: '/contact'
+    
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email:  # Add your form_id
+  description: Thank you for visiting my website. If you would like to discuss research collaborations, PhD supervision, or have inquiries about my work on Indigenous land rights, resource politics, or other related topics, please feel free to get in touch by filling out the form below. I look forward to connecting with you.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+#-------------------------------
+# Google Analytics
+google-analytics:  # Add your GA Tracking Id
