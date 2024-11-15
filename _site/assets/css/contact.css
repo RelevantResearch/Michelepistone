@@ -1,0 +1,120 @@
+/* Variables */
+:root {
+    --primary-pink: #FFC0CB; /* Replace this with the exact pink color from your style guide */
+    --text-color: #333;
+    --background-color: #f9f9f9;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-pink);
+    color: var(--text-color);
+  }
+  
+  .contactt {
+    margin-top: 85px;
+    max-width: 1400px;  
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  header h1 {
+    color: var(--primary-pink);
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .contact-section img {
+    max-width: 90vh;
+    height: auto;
+    border-radius: 10px;
+    flex: 1 1 500px; /* Set the flex-basis to 500px on large screens */
+  }
+  
+  .contact-form {
+    flex: 1 1 500px; /* Set the flex-basis to 500px on large screens */
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 15px;
+    color: #F7924B;
+    font-family: Aperçu Medium, sans-serif;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background: #F7924B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background: #e89bae; /* Slightly darker pink */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .contact-section {
+      flex-direction: column; /* Stack elements vertically on tablets */
+    }
+  
+    .contact-section img,
+    .contact-form {
+      flex: 1 1 100%; /* Make both the image and form take full width on tablets */
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column; /* Stack elements vertically on phones */
+    }
+  
+    .contact-section img,
+    .contact-form {
+        flex: 1 1 100%;
+        height: 100%;
+        width: 100%;
+    }
+  }
+  

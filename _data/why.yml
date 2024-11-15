@@ -17,7 +17,7 @@ section3_settings:
     heading: "The Opportunity"
     description: >
       Everyone confronting our immigration system deserves an advocate. 
-      But as many as 60% of all migrants – many of whom are children – contend with our legal system without a representative by their side. 
+      But as many as 70% of all migrants – many of whom are children – contend with our legal system without a representative by their side. 
       The consequences of this are substantial; 
       <a href="https://www.vera.org/state-of-justice-reform/2019/immigration-enforcement" target="_blank">Vera Institute</a> found that migrants with a representative are 10 times more likely to secure relief. 
       And with a backlog of more than 1.2 million pending cases our challenge is simple and urgent: we need more advocates.
@@ -68,11 +68,13 @@ section3_settings:
     description: >
       We can transform our legal services ecosystem to make it work for everyone. 
       We’ve already started in immigration. Since our launch in August 2020, VIISTA has seen:
-    stats:
+    stats1:
       - count: "134"
         detail: "new students enrolled in our program to become immigrant advocates"
+    stats2:
       - count: "73%"
         detail: "of Module 1 students reenrolled for Module 2"
+    stats3:
       - count: "150%"
         detail: "increase in enrollment from August 2020 to January 2021"
 
