@@ -562,6 +562,9 @@ img{
     font-family: "Apercu-Medium", sans-serif;
 }
 
+a.join-btn {
+    text-decoration: none;
+}
 
 .button:hover {
     background-color: #4dc3c4;
