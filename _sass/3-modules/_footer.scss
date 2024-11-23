@@ -1,6 +1,6 @@
 .row.color-7 {
     background-color: #006370; 
-    text-align: center;
+    
     display: block; 
     width: 100%;
 }
@@ -262,10 +262,7 @@ p.copyright{
         flex-direction: column;
         text-align: left;
     }
-    .footer-column {
-        display: flex;
-        flex-direction: column;
-    }
+    
 }
 
 /* Responsive Design */

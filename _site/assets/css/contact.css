@@ -40,10 +40,11 @@
   }
   
   .contact-section img {
-    max-width: 90vh;
+    max-width: 71vh;
     height: auto;
     border-radius: 10px;
     flex: 1 1 500px; /* Set the flex-basis to 500px on large screens */
+    box-shadow: 0 4px 10px rgb(12 9 10 / 70%);
   }
   
   .contact-form {

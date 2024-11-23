@@ -9,11 +9,12 @@
     {% include head.html %}
 </head>
 <body>
-    {% if site.data.settings.google-analytics %}
-        {% include google-analytics.html %}
-    {% endif %}
-    {% include header.html %}
-    
+{% if site.data.settings.google-analytics %}
+    {% include google-analytics.html %}
+{% endif %}
+{% include header.html %}
+
+<div class="container">
     <div class="contactt">
         <div class="contact-section">
             <img src="/img/resized.jpg" alt="Contact Us">
@@ -25,7 +26,6 @@
                     <div style="position: absolute; left: -5000px;">
                         <input type="text" name="b_yourlistid" tabindex="-1" value="">
                     </div>
-
                     <label for="name">Name</label>
                     <input type="text" id="name" name="NAME" placeholder="Your Name" required>
                     <div class="error" id="name-error" style="color: red; display: none;">Name is required.</div>
@@ -40,9 +40,12 @@
                     
                     <button type="submit">Send Message</button>
                 </form>
-            </div>
-        </div>
+            </div>            
+        </div>        
     </div>
+    {% include section-footer.html %}
+    
+</div>
 
 </body>
 </html>

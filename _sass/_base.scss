@@ -58,9 +58,10 @@ header.navbar {
 
 .row.color-7 {
     background-color: #006370; 
-    text-align: center;
+    
     display: block; 
     width: 100%;
+    padding: 20px;
 }
 
 .footer-section {
@@ -136,7 +137,11 @@ header.navbar {
     font-family: "Apercu-Medium", sans-serif;
     font-size: 1.375rem;
 }
-
+.footer-column {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
 .footer-button:hover {
     background-color: #4dc3c4;
     color: white;

@@ -60,7 +60,7 @@ span.line-1, span.line-2, span.line-3, span.line-4, span.line-5, span.line-6 {
     animation: marginanimlarge 3s ease forwards;
     display: inline-block; /* Change to block to take full width */
     width: 100%; /* Ensure spans take the full width of the container */
-    font-size: 6rem; /* Base font size */
+    /* font-size: 6rem; Base font size */
     color: #58BBB8;
     margin: 0; /* Remove default margins */
     opacity: 0; /* Start hidden for the slide-in effect */
@@ -312,7 +312,7 @@ header.navbar {
 
 .new-model-section h1 {
     color: #58BBB8; 
-    font-size: 5.625rem;
+    font-size: 4rem;
     margin-bottom: 20px;
     font-weight: normal;
 }
@@ -600,7 +600,7 @@ a.join-btn {
 
 .row.color-7 {
     background-color: #006370; 
-    text-align: center;
+    
     display: block; 
     width: 100%;
 }
