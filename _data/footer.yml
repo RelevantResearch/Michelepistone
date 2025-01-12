@@ -9,11 +9,11 @@ footer_settings:
   right_column:
     column1:
       - label: "ABOUT"
-        link: "about.html"
+        link: "/about"
       - label: "WHY"
-        link: "why.html"
+        link: "/why"
       - label: "CONTACT"
-        link: "/"
+        link: "/contact"
     column2:
       - label: "VIISTA"
         link: "https://www1.villanova.edu/university/professional-studies/academics/professional-education/viista.html"
@@ -27,6 +27,6 @@ footer_settings:
       - label: "LINKEDIN"
         link: "https://www.linkedin.com/in/michelepistone/"
   footer_bottom:
-    copyright: "© 2024 Michele Pistone. Website by"
+    copyright: "Michele Pistone. Website by"
     credit: "Relevant Research."
     credit_link: "https://relevant-research.com/"

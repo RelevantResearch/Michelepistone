@@ -60,10 +60,11 @@ span.line-1, span.line-2, span.line-3, span.line-4, span.line-5, span.line-6 {
     animation: marginanimlarge 3s ease forwards;
     display: inline-block; /* Change to block to take full width */
     width: 100%; /* Ensure spans take the full width of the container */
-    /* font-size: 6rem; Base font size */
+    font-size: 4rem; 
     color: #58BBB8;
     margin: 0; /* Remove default margins */
     opacity: 0; /* Start hidden for the slide-in effect */
+    letter-spacing: 3px;
 }
 
 /* Alternating slide-in animations for each line */
@@ -285,7 +286,8 @@ header.navbar {
     border: 2px solid white;
     color: white;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 1.6rem;
+    font-family: 'Apercu-Medium', serif;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -311,7 +313,10 @@ header.navbar {
 }
 
 .new-model-section h1 {
-    color: #58BBB8; 
+    color: #58BBB8;
+    font-family: "Apercu-Medium", sans-serif;
+    margin-top: 0.5em;
+    line-height: 1;
     font-size: 4rem;
     margin-bottom: 20px;
     font-weight: normal;
@@ -332,6 +337,7 @@ header.navbar {
     margin-bottom: 20px;
     margin: 0 0 1.5rem;
     font-size: 1.5rem;
+    font-family: "Apercu-Light", sans-serif;
 }
 
 /* row 3 start */
@@ -361,7 +367,7 @@ header.navbar {
     line-height: 1.6;
     justify-content: center;
     width: auto;
-    font-family: 'Gascogne-TS-Medium', serif;
+    font-family: 'Apercu-Light', serif;
     text-align: left;
 }
 
@@ -463,7 +469,7 @@ img{
 }
 
 .h1 h1 {
-    font-size: 5.625rem;
+    
     text-align: left;
     margin: 0;
 }
@@ -516,8 +522,8 @@ img{
     font-size: 1.9rem;
     margin-bottom: 10px;
     color: #006370;
-    font-weight: normal;
-    font-family: "Gascogne-TS-Medium", serif;
+    font-weight: bolder;
+    font-family: "Apercu-Light", serif;
 }
 
 .col-layout-third p {
@@ -831,6 +837,7 @@ p.copyright{
     text-align: left;
     margin-bottom: 3rem;
     line-height: 1.35em;
+    letter-spacing: 2px;
 }
 .row-column p {
     font-size: 1.8rem;

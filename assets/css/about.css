@@ -97,6 +97,7 @@ header.navbar {
     color: white;
     font-size: 2rem;
     font-weight: normal;
+    font-family: 'Apercu-Medium', serif;
 }
 
 /* Statistics section styling */
@@ -122,7 +123,7 @@ header.navbar {
     margin: 4rem 0 1.5rem;
 }
 .stat-column h3 {
-    font-family: "Gascogne-TS-Medium", serif;
+    font-family: "Apercu-Medium", serif;
     font-weight: normal;
     font-size: 2rem;
     line-height: 1.35em;
@@ -278,12 +279,13 @@ p.labelp {
     margin-bottom: 20px;
     font-weight: normal;
     text-transform: uppercase;
+    font-family: "Apercu-Medium", serif;
 }
 
 .new-model-section h2 {
     font-size: 2.8125rem;
     margin-bottom: 20px;
-    font-family: "Gascogne-TS-Medium", serif;
+    font-family: "Apercu-Medium", serif;
     font-weight: normal;
     line-height: 1.277em;
 }
@@ -519,7 +521,7 @@ img{
     margin-bottom: 10px;
     color: #006370;
     font-weight: normal;
-    font-family: "Gascogne-TS-Medium", serif;
+    font-family: "Apercu-Medium", serif;
 }
 
 .col-layout-third p {
@@ -837,6 +839,7 @@ p.copyright{
     margin-bottom: 1.5rem;
     line-height: 1.35em;
     color: #F2C242;
+    font-family: "Apercu-Medium", serif;
 }
 .row-about-column p {
     font-size: 1.8rem;

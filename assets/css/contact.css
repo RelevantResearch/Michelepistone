@@ -59,6 +59,7 @@
   .contact-form h2 {
     margin-bottom: 15px;
     color: #F7924B;
+    font-size: 3em;
     font-family: Aperçu Medium, sans-serif;
   }
   
@@ -66,6 +67,7 @@
     font-weight: bold;
     margin-top: 10px;
     display: block;
+    font-family: "Apercu-Light", serif;
   }
   
   .contact-form input, 
@@ -80,17 +82,23 @@
   
   .contact-form button {
     background: #F7924B;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    display: inline-block;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    color: #006370;
+    line-height: 50px;
+    padding: 4px 1.5rem 0;
+    border: 3px solid #58BBB8;
+    border-radius: 15px;
+    background-color: transparent;
+    text-decoration: none;
     cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.3s ease;
-  }
+    margin: 1.2rem 0 0;
+    font-family: "Apercu-Medium", sans-serif;
+}
   
   .contact-form button:hover {
-    background: #e89bae; /* Slightly darker pink */
+    background: #F7924B; /* Slightly darker pink */
   }
   
   /* Responsive Design */

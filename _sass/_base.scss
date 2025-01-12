@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Apercu-Medium'; 
+    src: url('fonts/apercu_medium_pro.otf') format('opentype');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Apercu-Light'; 
+    src: url('fonts/Apercu-Light.otf') format('opentype');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Gascogne-TS-Medium'; 
+    src: url('fonts/Gascogne-Light.ttf') format('opentype');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -52,7 +74,7 @@ header.navbar {
     line-height: 1.6;
     justify-content: center;
     width: auto;
-    font-family: 'Gascogne-TS-Medium', serif;
+    font-family: 'Apercu-Light', serif;
     text-align: left;
 }
 
@@ -94,6 +116,7 @@ header.navbar {
     margin: 0 0 1.5rem;
     font-size: 1.6rem;
     font-family: 'Gascogne-TS-Medium', serif;
+    letter-spacing: 1px;
 }
 
 .footer-left-subs{
@@ -134,7 +157,7 @@ header.navbar {
     cursor: pointer;
     font-weight: normal;
     text-transform: uppercase;
-    font-family: "Apercu-Medium", sans-serif;
+    font-family: 'Apercu-Medium', sans-serif;
     font-size: 1.375rem;
 }
 .footer-column {
@@ -184,7 +207,7 @@ header.navbar {
     list-style: none;
     padding-left: 0;
     text-transform: uppercase;
-    font-family: "Apercu-Medium", sans-serif;
+    font-family: 'Apercu-Medium', sans-serif;
     font-size: 1.375rem;
 }
 
@@ -197,7 +220,7 @@ p.copyright{
     margin-top: 70px;
     font-size: 1em;
     color: white;
-    font: 100% "Apercu-Light", sans-serif;
+    font: 100% "Apercu-Medium", sans-serif;
 }
 
 .footer-down-subs a {
