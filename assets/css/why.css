@@ -502,6 +502,7 @@ img{
     margin: 0;
     line-height: 1.5em;
     font-weight: normal;
+    font-family: "Apercu-Light", serif;
 }
 
 .col-layout-second ul {
@@ -510,12 +511,14 @@ img{
     line-height: 1.5em;
     font-weight: normal;
     width: 100%;
+    font-family: "Apercu-Light", serif;
 }
 .col-layout-third ul {
     font-size: 1.5rem;
     margin: 0;
     line-height: 1.5em;
     font-weight: normal;
+    font-family: "Apercu-Light", serif;
 }
 li {
     margin-bottom: .95em;
@@ -563,6 +566,7 @@ h1.h3-diff {
     line-height: 1.5;
     margin-bottom: 15px;
     color: #006370;
+    font-family: "Apercu-Light", serif;
 }
 
 .col-layout-second p {
@@ -570,6 +574,7 @@ h1.h3-diff {
     line-height: 1.5;
     margin-bottom: 15px;
     color: #006370;
+    font-family: "Apercu-Light", serif;
 }
 
 /* Paragraph styling */
@@ -577,8 +582,8 @@ h1.h3-diff {
     font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: 15px;
+    font-family: "Apercu-Light", serif;
     color: #006370;
-    font-family: ;
 }
 
 
@@ -939,6 +944,7 @@ p.labelp {
 .col-third {
     text-align: center; /* Center the content */
     padding: 1rem;
+    font-family: "Apercu-Light", serif;
 }
 
 
